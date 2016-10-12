@@ -2,7 +2,6 @@
 void setup()
 {
 	//your variable declarations here
-	Cow c = new cow("cow", "moo");
-	System.out.prntln (c.getType() + "goes" + c.getSound());
+	Cow c = new Cow("cow", "moo");
+	System.out.println (c.getType() + " goes " + c.getSound());
 }
-
